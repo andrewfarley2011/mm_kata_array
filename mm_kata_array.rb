@@ -6,7 +6,7 @@
 
 def array()
 	array = [*1..100]
-	array.each_with_index do |value,index|	
+	array.each_with_index do |value,index|
 		if value % 15 == 0
 			puts "mined minds"
 		elsif value % 3 == 0
@@ -18,6 +18,11 @@ def array()
 		end
 	end	
 end
+
+def number(x)
+	x == value
+end
+
 
 array
 

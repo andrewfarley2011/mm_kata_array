@@ -1,7 +1,7 @@
 
 require "minitest/autorun"
 
-require_relative "mined_minds_kata.rb"
+require_relative "mm_kata_array.rb"
 
 class Mined_Minds_Kata < Minitest::Test
 
@@ -42,24 +42,3 @@ class Mined_Minds_Kata < Minitest::Test
 	end
 
 end
-
-# print "Hello World\n"
-# print "\n"
-
-# x = 0
-
-# 100.times do |x|
-# x += 1
-
-# if (x % 15 == 0)
-# 	puts "mined_minds"
-# elsif (x % 3 == 0)
-# 	puts "mined"
-# elsif (x % 5 == 0)
-# 	puts "minds"
-# else
-# 	puts x
-# end
-
-# end
-
